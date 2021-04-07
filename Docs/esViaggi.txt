@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Progetto: Pagina web sui viaggi"</title>
+    </head>
+    <style>
+       body{
+            background-color:rgb(219, 100, 219);
+        }
+        h1{
+            color:rgb(38, 127, 235);
+        }
+        #p1{
+            color:rgb(28, 232, 205);
+        }
+        .p2{
+            color:rgb(230, 203, 30);
+        }
+    </style>
+    <body>
+    
+        <h1>Travel to Milano</h1>
+        <img src="https://staticfanpage.akamaized.net/wp-content/uploads/sites/3/2020/02/galleria_vittorio_emanuele-1581950531635-638x425.jpg">
+        <p id="p1">E' un posto bellisimo</p>
+         
+         <img src="https://www.unitremilano.it/wp-content/uploads/2019/04/Il-Duomo-di-Milano.jpg">
+        <p class="p2">E'un altro posto bellissimo</p>
+    
+        
+    </body>
+</html>
