@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <title>Biglietto treno</title>
+ <script type="text/javascript" src="D:\SCUOLA_GIORGIO\GitHub\GioCass03.github.io\JS\calcoliBT.js" ></script>
+ </head>
+<body>
+    <form>
+        <fieldset>
+            <p>Biglietto treno:</p> 
+            <input type="text" id="km" class="dati">km</p>
+            <p><input type="radio" name="classe" id="r1">1 Classe(0,43€/km)</p>
+            <p><input type="radio" name="classe" id="r2">2 Classe(0,23€/km)</p>
+            <p>Numero persone:
+            <select id="nPersone">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+               </select> </p>
+               <p><input type="button" value="calcola" class="btn" onclick="calcola(this.form)"></p>
+
+               <p id="costo" class="costo">Costo:</p>
+               </form>
+        </fieldset>
+        
+
+    </form>
+</body>
+</html>
