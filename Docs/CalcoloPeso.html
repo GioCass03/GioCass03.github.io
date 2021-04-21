@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Peso forma</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://giocass03.github.io/JS/funzioniPeso.js"></script>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Calcola peso forma
+            </legend>
+            <p>Inserire altezza (cm): <input type="text" id="cm" class="dati"></p>
+            <p>Inserire sesso:
+                <select id="sesso">
+                    <option>Femmina</option>
+                    <option>Maschio</option>
+                </select>
+            </p>
+            <p>Inserire età: <input type="text" id="eta" class="dati"></p>
+            <p>Inserire peso: <input type="text" id="peso" class="dati"></p>
+        </fieldset>
+        <p><input type="button" value="Calcola il tuo peso forma" onclick="calcolaPesoForma()"></p>
+
+        <legend>Il tuo peso calcolato con formule BMI(Body Mass Index)</legend>
+        <p id="pesoLorenz"></p>
+        <p id="pesoBroca"></p>
+        <p id="pesowandervael"></p>
+        <p id="bmi"></p>
+        <p id="info"></p>
+
+    </form>
+</body>
+
+</html>
