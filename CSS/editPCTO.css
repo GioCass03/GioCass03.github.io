@@ -1,0 +1,35 @@
+h1 {
+    color: rgb(255, 136, 0);
+}
+
+body {
+    background-color: rgb(255, 217, 0);
+}
+
+p {
+    width: 50%;
+}
+
+section {
+    margin-left: 0px;
+    max-width: 100%;
+}
+
+details {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+summary {
+    font-size: 30px;
+    color: rgb(255, 136, 0);
+}
+
+.domande {
+    margin: auto;
+    width: 40%;
+    border: 4px solid white;
+    padding: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
